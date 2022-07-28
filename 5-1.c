@@ -4,6 +4,7 @@ int main() {
     // 1번
     int n;
     scanf("%d", &n);
+    
     if (n < 0) {
         printf("cold, indoor");
     } else if (n >= 0 && n < 40) {
